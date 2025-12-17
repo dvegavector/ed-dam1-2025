@@ -10,6 +10,7 @@ public class Clientes {
     private String provincia;
     private String telefono;
     private String email;
+    private String personaFisica;
 
     public String getNombre() {
         return nombre;

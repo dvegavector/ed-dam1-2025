@@ -2,12 +2,11 @@ package features;
 
 public class facturas {
     private int id;
-    private int coste;
-    private int idClientes;
-    private String numFacturas;
-    private String fechas;
-    private String conceptos;
-    private double importes;
+    private int idCliente;
+    private String numFactura;
+    private String fecha;
+    private String concepto;
+    private double importe;
 
     public int getIdCliente() {
         return idCliente;
@@ -25,23 +24,23 @@ public class facturas {
         this.id = id;
     }
 
-    public String getNumFacturas() {
+    public String getNumFactura() {
         return numFactura;
     }
 
-    public void setNumFacturas(String numFactura) {
+    public void setNumFactura(String numFactura) {
         this.numFactura = numFactura;
     }
 
-    public String getFechas() {
+    public String getFecha() {
         return fecha;
     }
 
-    public void setFechas(String fecha) {
+    public void setFecha(String fecha) {
         this.fecha = fecha;
     }
 
-    public String getConceptos() {
+    public String getConcepto() {
         return concepto;
     }
 
@@ -55,13 +54,5 @@ public class facturas {
 
     public void setImporte(double importe) {
         this.importe = importe;
-    }
-
-    public int getCoste() {
-        return coste;
-    }
-
-    public void setCoste(int coste) {
-        this.coste = coste;
     }
 }
